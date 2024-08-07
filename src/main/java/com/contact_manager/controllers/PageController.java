@@ -110,7 +110,7 @@ public class PageController {
         user.setPhoneNumber(userForm.getPhoneNumber());
         user.setEnabled(false);
         user.setProfilePic(
-                "https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/");
+                "https://www.vecteezy.com/vector-art/5544718-profile-icon-design-vector?autodl_token=0dcee754169197b36934097d9336e2e972de42b8a0684fe56a47fa745f5fd0efc04adbd5f92a5eea9d7e3a37c7c11c12fb65c81b5346dc86ea4c8df041d539ba");
 
         User savedUser = userService.saveUser(user);
 
